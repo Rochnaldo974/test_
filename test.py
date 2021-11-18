@@ -1,10 +1,16 @@
 #!/usr/bin/python3
 
-def calc_my_age_in_two_years(myCurrentAge):
-    print("You are", myCurrentAge, "years old")
-    my_age_in_two_years = myCurrentAge + 2
-    return my_age_in_two_years
+fruit = "apple"
+quantity = 3   
+pie_crust = "empty"
+isOvenOn = False
+    
+def prep_my_fruit(quantity, fruit, pie_crust):
+    print("You put", quantity, fruit, "on the trust")
+    pie_crust = "filled with delicious apples"
+    return (pie_crust)
+   
+    
 
-my_age_in_two_years = calc_my_age_in_two_years(33)
-
-print("In two years, i'll be", my_age_in_two_years, "years old")
+pie_crust = prep_my_fruit(3, "apples", "empty")
+print("my pie is", pie_crust)
